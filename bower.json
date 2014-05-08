@@ -1,12 +1,12 @@
 {
-  "name": "Maintain-aspect-ratio-css",
+  "name": "maintain-aspect-ratio-css",
   "version": "1.0.0",
   "homepage": "https://github.com/magsout/Maintain-aspect-ratio-css",
   "authors": [
     "Splitfire"
   ],
   "description": "Maintain fluid aspect ratio with pure CSS",
-  "main": "style.css",
+  "main": "_ratio.css",
   "moduleType": [
     "globals"
   ],
