@@ -42,18 +42,27 @@ Change width and height will adapt automatically to keep aspect ratio
 	
 ## New ratio
 
-You can add new .ratio--x_x.
-
-for example  image with resolution: 800 x 614.
-
-- 800/614 : 1,25
-- (1/1,25)* 100: 80
-
 ```
-.ratio--1_25
-{
-	padding-top:80%;
-}
+	.element {
+		@include ratio($ratioValue: 1.85);
+	}
+ 	.example {
+ 		@include rt($rtWidth : 800px, $rtHeight: 600px);
+ 	}
+ 	
+ 	
+ 	//Compiled
+ 	
+	.element
+	{
+		padding-top:54.05%;
+	}
+	
+	.example
+	{
+		padding-top:75.18%;
+	}
+	
 ```
 
 ## Demo
