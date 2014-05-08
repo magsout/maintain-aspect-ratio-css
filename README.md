@@ -23,7 +23,6 @@ Maintain fluid aspect ratio with css : image, iframe, element
 
 Change width and height will adapter automatically to keep aspect ratio
 
-		```
 		.test1
 		{
 			width:20%;
@@ -36,7 +35,7 @@ Change width and height will adapter automatically to keep aspect ratio
 		{
 			width:30%;
 		}
-		```
+		
 
 ![result](ex.jpg)
 	
