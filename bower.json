@@ -1,0 +1,29 @@
+{
+  "name": "Maintain-aspect-ratio-css",
+  "version": "1.0.0",
+  "homepage": "https://github.com/magsout/Maintain-aspect-ratio-css",
+  "authors": [
+    "Splitfire"
+  ],
+  "description": "Maintain fluid aspect ratio with pure CSS",
+  "main": "style.css",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "css",
+    "fluid",
+    "aspect",
+    "ratio",
+    "iframe",
+    "image"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
