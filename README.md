@@ -23,5 +23,5 @@ Maintain fluid aspect ratio with css : image, iframe, element
 
 ## Demo
 	1. cd into the `test` folder
-	2. lauch `index.html`
-	3. or  [Demo](https://dl.dropboxusercontent.com/u/92935009/aspect-ratio/index.html)
+	2. launch `index.html`
+	3. or  https://dl.dropboxusercontent.com/u/92935009/aspect-ratio/index.html
