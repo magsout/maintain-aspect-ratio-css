@@ -14,11 +14,31 @@ Maintain fluid aspect ratio with css : image, iframe, element
 
 3. Example
 
-	```Css
+	```html
 	<div class="ratio ratio--16_9">
 		<iframe width="560" height="315" src="//www.youtube.com/embed/4SH6ghURstg" frameborder="0" allowfullscreen></iframe>
 	</div>
 	```
+4. Width
+
+Change width and height will adapter automatically to keep aspect ratio
+	```Css
+		.test1
+		{
+			width:20%;
+		}
+		.test2
+		{
+			width:30%;
+		}
+		.test3
+		{
+			width:30%;
+		}
+	```
+
+![result](ex.jpg)
+	
 
 
 ## Demo
