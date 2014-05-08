@@ -21,7 +21,7 @@ Maintain fluid aspect ratio with css : image, iframe, element
 	```
 4. Width
 
-Change width and height will adapter automatically to keep aspect ratio
+Change width and height will adapt automatically to keep aspect ratio
 
 		.test1
 		{
