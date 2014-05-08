@@ -33,7 +33,7 @@ Change width and height will adapter automatically to keep aspect ratio
 		}
 		.test3
 		{
-			width:30%;
+			width:50%;
 		}
 		
 
