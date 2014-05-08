@@ -46,14 +46,15 @@ You can add new .ratio--x_x.
 
 for example  image with resolution: 800 x 614.
 
-800/614 : 1,25
-(1/1,25)* 100: 80
+- 800/614 : 1,25
+- (1/1,25)* 100: 80
 
+```
 .ratio--1_25
 {
 	padding-top:80%;
 }
-
+```
 
 ## Demo
 	1. cd into the `test` folder
