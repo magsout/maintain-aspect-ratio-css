@@ -40,8 +40,7 @@ Change width and height will adapt automatically to keep aspect ratio
 ![result](ex.jpg)
 	
 	
-
-5. Ratio
+## New ratio
 
 You can add new .ratio--x_x.
 
