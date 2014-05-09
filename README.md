@@ -14,12 +14,40 @@ Maintain fluid aspect ratio with css : image, iframe, element
 
 3. Example
 
+	`.ratio` is the main class. You must declare ratio (example: ratio--16_9):
+
 	```html
 	<div class="ratio ratio--16_9">
 		<iframe width="560" height="315" src="//www.youtube.com/embed/4SH6ghURstg" frameborder="0" allowfullscreen></iframe>
 	</div>
 	```
-4. Width
+	
+4. Ratio
+
+	```
+	.ratio--16_9 {
+		@include ratio($ratioValue: 1.77);
+	}
+ 	.example {
+ 		@include rt($rtWidth : 800px, $rtHeight: 600px);
+ 	}
+ 	
+ 	
+ 	//Compiled
+ 	
+	.ratio--16_9:before
+	{
+		padding-top:56.49%;
+	}
+	
+	.example:before
+	{
+		padding-top:75.18%;
+	}	
+	```
+
+	
+5. Width
 
 Change width and height will adapt automatically to keep aspect ratio
 
@@ -36,34 +64,21 @@ Change width and height will adapt automatically to keep aspect ratio
 			width:50%;
 		}
 		
+		
+	<div class="ratio ratio--16_9 test1">
+		<iframe width="560" height="315" src="//www.youtube.com/embed/4SH6ghURstg" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div class="ratio ratio--16_9 test2">
+		<iframe width="560" height="315" src="//www.youtube.com/embed/4SH6ghURstg" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div class="ratio ratio--16_9 test3">
+		<iframe width="560" height="315" src="//www.youtube.com/embed/4SH6ghURstg" frameborder="0" allowfullscreen></iframe>
+	</div>
+		
 
 ![result](ex.jpg)
 	
 	
-## New ratio
-
-```
-	.element {
-		@include ratio($ratioValue: 1.85);
-	}
- 	.example {
- 		@include rt($rtWidth : 800px, $rtHeight: 600px);
- 	}
- 	
- 	
- 	//Compiled
- 	
-	.element
-	{
-		padding-top:54.05%;
-	}
-	
-	.example
-	{
-		padding-top:75.18%;
-	}
-	
-```
 
 ## Demo
 	1. cd into the `test` folder
