@@ -76,8 +76,7 @@ Change width and height will adapt automatically to keep aspect ratio
 	</div>
 		
 
-![result](ex.jpg)
-	
+![result](ex.jpg)	
 	
 
 ## Demo
