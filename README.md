@@ -14,7 +14,7 @@ Maintain fluid aspect ratio with css : image, iframe, element
 
 3. Example
 
-	`.ratio` is the main class. You must declare ratio (example: ratio--16_9):
+	`.ratio` is the main class. You must declare ratio class (example: .ratio--16_9):
 
 	```html
 	<div class="ratio ratio--16_9">
@@ -25,15 +25,19 @@ Maintain fluid aspect ratio with css : image, iframe, element
 4. Ratio
 
 	```
+	//ratio
 	.ratio--16_9 {
-		@include ratio($ratioValue: 1.77);
+		@include mr($ratio: 1.77);
 	}
+	
+	//Calculate ratio
  	.example {
- 		@include rt($rtWidth : 800px, $rtHeight: 600px);
+ 		@include mr($rtWidth : 800px, $rtHeight: 600px);
  	}
+ 	```
  	
- 	
- 	//Compiled
+ 	```
+ 	//Compiled :
  	
 	.ratio--16_9:before
 	{
